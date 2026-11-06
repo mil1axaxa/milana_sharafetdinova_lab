@@ -40,7 +40,7 @@ def main() -> None:
             classification = classify_transmission(u, z2)
             
             print("\n" + "="*40)
-            print(" РЕЗУЛЬТАТЫ РАСЧЕТА (ВАРИАНТ 9)")
+            print(" РЕЗУЛЬТАТЫ РАСЧЕТА ")
             print("="*40)
             print(f"Передаточное отношение (u): {u:.2f}")
             print(f"Классификация передачи: {classification}")
